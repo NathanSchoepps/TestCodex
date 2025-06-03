@@ -22,5 +22,10 @@ function ajouterCritique(titre, dateSortie, resume) {
     section.appendChild(article);
 }
 
-// Exemple d'utilisation
-// ajouterCritique('Nouveau jeu', '2023-10-01', 'Ce jeu est incroyable!');
+// Ajout de quelques critiques pour démonstration
+document.addEventListener('DOMContentLoaded', function () {
+    ajouterCritique('The Legend of Zelda: Tears of the Kingdom', '2023-05-12',
+        'Une suite épique qui repousse les limites du gameplay en monde ouvert.');
+    ajouterCritique('Final Fantasy XVI', '2023-06-22',
+        'Un retour aux sources avec un système de combat plus dynamique.');
+});
